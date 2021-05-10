@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>BotNews</title>
+		<title id="title-class">BotNews</title>
 
 		<!-- BootStrap CDN -->
 		<link
@@ -12,11 +12,18 @@
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		/>
 		<link rel="stylesheet" href="styles/main.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,500&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<nav
 			class="navbar navbar-expand-lg navbar-light"
-			style="background-color: #dbf9b3"
+			style="background-color: #d0d1ff"
 		>
 			<a class="navbar-brand" href="#">BotNews</a>
 			<button
@@ -31,7 +38,7 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav">
+				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="index.html">Home</a>
 					</li>
@@ -49,9 +56,14 @@
 		</nav>
 	</body>
 
-	<div class="jumbotron p-3 p-md-5 text-white rounded bg-secondary">
+	<div
+		class="jumbotron p-3 p-md-5 text-white"
+		style="background-color: #dee2ff"
+	>
 		<div class="col-md-6 px-0">
-			<h1 class="display-4 font-italic">Spring Counterbalancing</h1>
+			<h1 class="display-4 font-italic title-heading">
+				Spring Counterbalancing
+			</h1>
 		</div>
 	</div>
 
@@ -60,14 +72,9 @@
 			<div class="col-md-8 blog-main">
 				<div class="blog-post">
 					<h2 class="blog-post-title">Sample blog post</h2>
-					<p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-
-					<p>
-						This blog post shows a few different types of content that's
-						supported and styled with Bootstrap. Basic typography, images, and
-						code are all supported.
-					</p>
+					<p class="blog-post-meta">January 1, 2014 by <a href="#">Bob</a></p>
 					<hr />
+
 					<p>
 						Cum sociis natoque penatibus et magnis
 						<a href="#">dis parturient montes</a>, nascetur ridiculus mus.
@@ -75,6 +82,7 @@
 						vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
 						consectetur purus sit amet fermentum.
 					</p>
+
 					<blockquote>
 						<p>
 							Curabitur blandit tempus porttitor.
@@ -82,30 +90,41 @@
 							leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 						</p>
 					</blockquote>
+
 					<p>
 						Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis
 						consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla
 						sed consectetur.
 					</p>
-					<h2>Heading</h2>
+
+					<h2 class="blog-heading">Heading</h2>
+
 					<p>
 						Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
 						auctor. Duis mollis, est non commodo luctus, nisi erat porttitor
 						ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac
 						consectetur ac, vestibulum at eros.
 					</p>
-					<h3>Heading</h3>
+
+					<img class="mx-auto d-block logo" src="images/Logo2.png" alt="" />
+
+					<h3 class="blog-heading">Heading</h3>
+
 					<p>
 						Cum sociis natoque penatibus et magnis dis parturient montes,
 						nascetur ridiculus mus.
 					</p>
-					<pre><code>Example code block</code></pre>
+
+					<pre><code class="code-block">Example code block</code></pre>
+
 					<p>
 						Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem
 						malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus
 						commodo, tortor mauris condimentum nibh, ut fermentum massa.
 					</p>
-					<h3>Heading</h3>
+
+					<h3 class="blog-heading">Heading</h3>
+
 					<p>
 						Cum sociis natoque penatibus et magnis dis parturient montes,
 						nascetur ridiculus mus. Aenean lacinia bibendum nulla sed
@@ -113,6 +132,7 @@
 						dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
 						ut fermentum massa justo sit amet risus.
 					</p>
+
 					<ul>
 						<li>
 							Praesent commodo cursus magna, vel scelerisque nisl consectetur

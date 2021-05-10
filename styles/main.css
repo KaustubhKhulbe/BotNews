@@ -9,3 +9,28 @@
 .nav-item {
 	color: white;
 }
+
+.blog-heading {
+	color: darkgreen;
+}
+.logo {
+	width: 40%;
+}
+
+.code-block {
+	background-color: white;
+	color: darkgreen;
+}
+
+.title-heading {
+	color: darkgreen;
+}
+
+.border-radius {
+	border-radius: 0;
+}
+
+.navbar-brand {
+	font-family: "Karla", sans-serif !important;
+	font-size: 2rem !important;
+}
