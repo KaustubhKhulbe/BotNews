@@ -22,10 +22,6 @@
 	color: darkgreen;
 }
 
-.title-heading {
-	color: darkgreen;
-}
-
 .border-radius {
 	border-radius: 0;
 }
@@ -33,4 +29,16 @@
 .navbar-brand {
 	font-family: "Karla", sans-serif !important;
 	font-size: 2rem !important;
+}
+
+.jumbotron {
+	font-family: "Newsreader", serif !important;
+}
+
+.list-articles {
+	padding-left: 2%;
+}
+
+.about-more-info {
+	padding: 6%;
 }
